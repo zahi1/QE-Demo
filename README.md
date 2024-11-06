@@ -112,4 +112,4 @@ The project uses a modular architecture with separate concerns for:
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/RobertWhetsel/QE-Demo/blob/dev/LICENSE)
