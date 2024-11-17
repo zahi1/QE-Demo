@@ -4,72 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Genesis Admin Control Panel - Quantum Eye</title>
-    <link rel="stylesheet" href="css/core/variables.css">
-    <link rel="stylesheet" href="css/core/base.css">
-    <link rel="stylesheet" href="css/layouts/container.css">
-    <link rel="stylesheet" href="css/components/navigation.css">
-    <link rel="stylesheet" href="css/components/button.css">
-    <link rel="stylesheet" href="css/components/message.css">
-    <link rel="stylesheet" href="css/components/profile.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/components/admin-control-panel.css">
     <link rel="stylesheet" href="css/themes/dark.css">
     <link rel="stylesheet" href="css/themes/print.css">
-    <style>
-        .sidebar {
-            height: 100%;
-            width: 0;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: var(--color-background-alt);
-            overflow-x: hidden;
-            transition: 0.3s;
-            padding-top: 60px;
-        }
-
-        .sidebar--open {
-            width: 250px !important;
-        }
-
-        .sidebar__close {
-            position: absolute;
-            top: 0;
-            right: 25px;
-            font-size: 36px;
-            margin-left: 50px;
-            color: var(--color-text);
-            text-decoration: none;
-        }
-
-        .sidebar__brand {
-            padding: 8px 16px 16px;
-            font-size: 1.2em;
-            color: var(--color-text);
-            border-bottom: 1px solid var(--color-border);
-        }
-
-        .sidebar__link {
-            padding: 8px 16px;
-            text-decoration: none;
-            font-size: 1em;
-            color: var(--color-text);
-            display: block;
-            transition: 0.3s;
-        }
-
-        .sidebar__link:hover {
-            background-color: var(--color-background-hover);
-        }
-
-        .sidebar__footer {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            border-top: 1px solid var(--color-border);
-            padding: 16px 0;
-        }
-    </style>
     <script>
         // Initialize session for testing
         sessionStorage.setItem('isAuthenticated', 'true');
