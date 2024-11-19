@@ -1,0 +1,64 @@
+# Python cache files
+*.pyc
+*.pyo
+__pycache__/
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+env/
+
+# Flask instance and settings files
+instance/
+config.py
+
+# Logs
+*.log
+logs/
+
+# Database files
+*.sqlite3
+*.db
+
+# Static files (generated during runtime)
+staticfiles/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+.vs/
+
+# IDE specific
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Operating system specific
+.DS_Store
+Thumbs.db
+
+# Node.js (if using npm for frontend)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Coverage reports
+coverage/
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Test outputs
+*.pytest_cache/
+htmlcov/
+
+# Deployment files
+*.gz
+*.zip
+*.tar

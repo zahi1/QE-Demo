@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard - Quantum Eye</title>
-    <link rel="stylesheet" href="css/adminDashboard.css">
+    <link rel="stylesheet" href="/static/css/adminDashboard.css">
 </head>
 <body class="page">
     <div class="page__container">
         <div id="nav-component"></div>
         <div id="sidebar-component"></div>
-        
+
         <div class="content-area">
             <div class="iframe-container">
                 <iframe id="content-frame" src="spreadsheet.html" sandbox="allow-scripts allow-same-origin"></iframe>
@@ -20,7 +20,7 @@
 
     <script type="module">
         import ComponentLoader from './js/modules/componentLoader.js';
-        
+
         // Set user role for proper sidebar menu
         localStorage.setItem('userRole', 'platformAdmin');
         localStorage.setItem('userName', 'Admin');
@@ -37,6 +37,6 @@
         // Initialize dashboard
         document.addEventListener('DOMContentLoaded', initializeDashboard);
     </script>
-    <script src="js/admindashboard.js"></script>
+    <script src="/static/js/admindashboard.js"></script>
 </body>
 </html>
